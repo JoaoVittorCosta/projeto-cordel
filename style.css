@@ -7,14 +7,20 @@
 }
 header{
     background-color: black;
-    height: 250px;
+    
+    
+    
+    
+    
 }
 header > h1{
     color: white;
     font-family: var(--fonte-titulo);
     text-align: center;
-    padding-top: 5%;
-    font-size: 7em;
+    padding-top: 3%;
+    
+    font-size: 6em;
+    
     
 }
 header > p{
@@ -26,4 +32,49 @@ header > p{
 header a{
     text-decoration: none;
     color: white;
+}
+main{
+    text-align: start;
+    width: 500px;}
+main p{
+    margin: 50px 30px ;
+    font-family: var(--Fonte-p);
+    font-size: 3em;
+}
+section{
+    box-shadow: inset 2px 2px 13px 2px #0000007a;
+}
+
+section p{
+    color: white;
+    margin-top: 50px;
+}
+.pdiv{
+    position: absolute;
+    height: 700px;
+    width: 650px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.349);
+    
+}
+#fundoflor{
+    height: 900px;
+    width: 1340px;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover ;}
+#fundopapel{
+    height: 900px;
+    width: 1340px;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover ;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.2em;
 }
