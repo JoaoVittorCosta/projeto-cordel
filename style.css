@@ -29,12 +29,15 @@ header > p{
     font-size: 1em;
     padding-bottom: 5vh;
 }
-header a{
+ a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     
     
+}
+a:hover{
+    text-decoration: underline;
 }
 main{
     text-align: start;
